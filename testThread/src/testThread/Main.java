@@ -7,8 +7,13 @@ public class Main {
 			if (i==20) {
 				
 				OneThread one=new OneThread();
+<<<<<<< HEAD
 				new Thread(one,"新线程1").start();
 				new Thread(one,"新线程2").start();
+=======
+				new Thread(one,"这是线程1").start();
+				new Thread(one,"这是线程2").start();
+>>>>>>> second
 				try {
 					Thread.sleep(1);
 				} catch (InterruptedException e) {
