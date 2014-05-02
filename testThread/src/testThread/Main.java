@@ -7,8 +7,8 @@ public class Main {
 			if (i==20) {
 				
 				OneThread one=new OneThread();
-				new Thread(one,"新线程1").start();
-				new Thread(one,"新线程2").start();
+				new Thread(one,"1").start();
+				new Thread(one,"2").start();
 				try {
 					Thread.sleep(1);
 				} catch (InterruptedException e) {
